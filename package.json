@@ -3,12 +3,11 @@
   "version": "0.0.1",
   "engines": {
     "node": "0.6.6"
-  },
-  "scripts": {
-    "test": "open SpecRunner.html"
-  },
+  }
   "devDependencies":{
+    "requirejs": "latest",
     "coffee-script": "latest",
+    "docco": "latest",
     "mocha": "latest",
     "chai": "latest"
   }
