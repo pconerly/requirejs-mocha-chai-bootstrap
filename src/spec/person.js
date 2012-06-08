@@ -10,6 +10,8 @@ define(['lib/person'],function(Person){
       new Person('Francis').name.should.equal('Francis');
     });
 
+    it('should have an age');
+
   });
 
 });

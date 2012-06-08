@@ -1,5 +1,6 @@
 require.config({
-  baseUrl:'src/'
+  baseUrl:'src/',
+  urlArgs: "v="+(new Date()).getTime()
 });
 
 // Require libraries
