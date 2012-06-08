@@ -9,6 +9,10 @@ A simple and effective setup for starting projects with RequireJS.
 * Test script to require base specs within spec folder automatically before starting tests.
 * Easier LiveReload setup(?)
 
+## Thanks
+
+Big thanks to ["geddesign"](http://github.com/geddesign/) and his repository on ['AMD Testing'](http://github.com/geddesign/amd-testing) that put me in the right direction on how to tackle it.
+
 ## License
 
 Copyright (C) 2012 Karl <@karlbright> Brightman
