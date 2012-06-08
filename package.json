@@ -1,9 +1,9 @@
 {
-  "name": "RequireJSMochaBoostrap",
+  "name": "requireJSMochaChaiBoostrap",
   "version": "0.0.1",
   "engines": {
     "node": "0.6.6"
-  }
+  },
   "devDependencies":{
     "requirejs": "latest",
     "coffee-script": "latest",
