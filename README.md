@@ -11,7 +11,7 @@ A simple and effective setup for starting projects with RequireJS.
 
 ## Thanks
 
-Big thanks to ["geddesign"](http://github.com/geddesign/) and his repository on ['AMD Testing'](http://github.com/geddesign/amd-testing) that put me in the right direction on how to tackle it.
+Big thanks to [geddesign](http://github.com/geddesign/) and his repository on [AMD Testing](http://github.com/geddesign/amd-testing) that put me in the right direction on how to tackle it.
 
 ## License
 
