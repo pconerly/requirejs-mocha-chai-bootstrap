@@ -1,6 +1,6 @@
 # RequireJS + Mocha + Chai bootstrap
 
-A simple and effective setup for starting projects with RequireJS.
+A simple and effective setup for starting projects with RequireJS. A quick [blog post](http://karlbrig.ht/20120608-requirejs-mocha-chai-bootstrap.html) on my site explains my reasoning behind the bootstrap and how it runs. If you have an understanding of RequireJS you won't get much out of the blog post.
 
 ## Todo
 
