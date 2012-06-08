@@ -1,6 +1,13 @@
 # RequireJS + Mocha + Chai bootstrap
 
-A simple and effective setu
+A simple and effective setup for starting projects with RequireJS.
+
+## Todo
+
+* Coffeescript
+* Build script
+* Test script to require base specs within spec folder automatically before starting tests.
+* Easier LiveReload setup(?)
 
 ## License
 
