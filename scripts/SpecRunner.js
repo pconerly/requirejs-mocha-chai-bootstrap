@@ -1,3 +1,4 @@
+// Configure RequireJS
 require.config({
   baseUrl:'src/',
   urlArgs: "v="+(new Date()).getTime()
@@ -5,12 +6,19 @@ require.config({
 
 // Require libraries
 require(['require', 'vendor/chai', 'vendor/mocha'], function(require,chai){
-  // Setup Chai & Mocha
+
+  // Chai
+  assert = chai.assert;
   should = chai.should();
+  expect = chai.expect;
+
+  // Mocha
   mocha.setup('bdd');
+
   // Require base tests before starting
   require(['spec/person'], function(person){
     // Start runner
     mocha.run();
   });
+
 });
