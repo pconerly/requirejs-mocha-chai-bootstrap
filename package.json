@@ -4,11 +4,14 @@
   "engines": {
     "node": "0.6.6"
   },
-  "devDependencies":{
+  "devDependencies": {
     "requirejs": "latest",
     "coffee-script": "latest",
     "docco": "latest",
     "mocha": "latest",
-    "chai": "latest"
+    "chai": "latest",
+    "grunt": "~0.4.1",
+    "grunt-mocha": "~0.3.0",
+    "phantomjs": "1.8.1-1"
   }
 }

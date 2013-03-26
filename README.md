@@ -1,4 +1,37 @@
-# RequireJS + Mocha + Chai bootstrap
+## A bug report in the form of a repository!
+
+Please see: 
+
+The general idea is that `grunt-mocha` fails when mocha is loaded in a requireJS style of format.
+
+To reproduce:
+
+```bash
+git clone this-repo
+npm install
+grunt mocha
+# Notice that grunt-mocha's built-in test succeeds
+# Notice that chaijs's online tests succeeds
+# Notice that the tests in SpecRunner.html timeout
+    # Then open SpecRunner.html in your browser and see that it succeeds.
+```
+
+### NOTE: grunt-lib-phantomjs error work-around
+
+To get around this bug: https://github.com/gruntjs/grunt-lib-phantomjs/issues/17
+
+I added this to `package.json`
+
+```json
+"devDependencies": {
+  ...,
+  "phantomjs": "1.8.1-1"
+}
+```
+
+**Your planned scheduled README.md continues below:**
+
+## RequireJS + Mocha + Chai bootstrap
 
 A simple and effective setup for starting projects with RequireJS. A quick [blog post](http://karlbrig.ht/20120608-requirejs-mocha-chai-bootstrap.html) on my site explains my reasoning behind the bootstrap and how it runs. If you have an understanding of RequireJS you won't get much out of the blog post.
 
