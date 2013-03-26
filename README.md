@@ -1,6 +1,6 @@
 ## A bug report in the form of a repository!
 
-Please see: 
+Please see: https://github.com/kmiyashiro/grunt-mocha/issues/58
 
 The general idea is that `grunt-mocha` fails when mocha is loaded in a requireJS style of format.
 
