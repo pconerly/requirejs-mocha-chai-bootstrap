@@ -2,6 +2,8 @@
 
 Please see: https://github.com/kmiyashiro/grunt-mocha/issues/58
 
+and: https://github.com/karlbright/requirejs-mocha-chai-bootstrap/issues/1
+
 The general idea is that `grunt-mocha` fails when mocha is loaded in a requireJS style of format.
 
 To reproduce:
